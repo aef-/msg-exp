@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Component should correctly parse message with HTML tags and no variables 1`] = `
+<span>
+  This is a message 
+  <a
+    href="test"
+  >
+    <strong
+      id="test-id"
+    >
+      test
+    </strong>
+  </a>
+  !
+</span>
+`;
+
+exports[`Message Component should return React tree when HTML is passed 1`] = `
+<span>
+  This is a 
+  <strong
+    data-attr="1"
+    id="strong-id"
+  >
+    a very 
+    STRONG!!
+  </strong>
+   message.
+</span>
+`;
