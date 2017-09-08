@@ -6,7 +6,6 @@ export default {
   name: 'message',
   plugins: [
     babel({
-      externalHelpers: true,
       exclude: 'node_modules/**'
     })
   ],
